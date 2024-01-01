@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .fotoPerfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header .tituloPerfil {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.header .informacoesPerfil {
+    font-family: 'Roboto', sans-serif;
+}
+
+.informacoesPerfil {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+.informacoesPerfil p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+
+}
+
+.informacoesPerfil p::before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: contain;
+    margin-right: .5rem;
+
+}
+
+.informacoesPerfil .job::before {
+    background-image: url('/assets/img/icones/man_office_icon.svg');
+    background-repeat: no-repeat;
+}
+
+.informacoesPerfil .local::before {
+    background-image: url('/assets/img/icones/7089161_googlemaps_icon.svg');
+    background-repeat: no-repeat;
+}
+
+.informacoesPerfil .fone::before {
+    background-image: url('/assets/img/icones/contato.svg');
+    background-repeat: no-repeat;
+}
+
+.informacoesPerfil .email::before {
+    background-image: url('/assets/img/icones/mail_icon.svg');
+    background-repeat: no-repeat;
+}
