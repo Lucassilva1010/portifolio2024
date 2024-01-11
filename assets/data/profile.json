@@ -1,9 +1,9 @@
 {
-    "name": "Lucas Augusto ",
-    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+    "nome": "Lucas Augusto ",
+    "foto": "https://avatars.githubusercontent.com/u/3266640?v=4",
     "job": "Desenvolvedor Junior",
-    "location": "Simões - PI",
-    "phone": "(89) 98134-4562",
+    "local": "Simões - PI",
+    "tel": "(89) 98134-4562",
     "email": "lucasaugusto.simoes@gmail.com",
     "skills": {
         "hardSkills": [
