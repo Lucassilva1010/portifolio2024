@@ -2,19 +2,18 @@ function atualizaperfil(dadosPerfil) {
 
     const foto = document.getElementById('perfil.foto');
     foto.src = dadosPerfil.foto;
-    foto.alt = dadosPerfil.nome;
 
 
-    const nome = document.getElementById('nome')
+    const nome = document.getElementById('perfil.nome')
     nome.innerText = dadosPerfil.nome
-    const job = document.getElementById('job')
-    nome.innerText = dadosPerfil.job
-    const local = document.getElementById('local')
-    nome.innerText = dadosPerfil.local
-    const tel = document.getElementById('tel')
-    nome.innerText = dadosPerfil.tel
-    const email = document.getElementById('email')
-    nome.innerText = dadosPerfil.email
+    const job = document.getElementById('perfil.job')
+    job.innerText = dadosPerfil.job
+    const local = document.getElementById('perfil.local')
+    local.innerText = dadosPerfil.local
+    const tel = document.getElementById('perfil.tel')
+    tel.innerText = dadosPerfil.tel
+    const email = document.getElementById('perfil.email')
+    email.innerText = dadosPerfil.email
 }
 
 
