@@ -48,13 +48,13 @@
     ],
     "portfolio": [
         {
-            "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-            "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+            "nome": "Curso Ministrado na DIO para a criação de uma Pokedex",
+            "url": "https://github.com/Lucassilva1010/PokedexDio",
             "github": true
         },
         {
-            "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-            "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+            "nome": "Criação do jogo do mario do canal: Manual do DEV",
+            "url": "https://github.com/Lucassilva1010/Jogo-Mario--Js",
             "github": true
         }
     ],

@@ -15,7 +15,7 @@
     margin: 1rem 0;
 }
 
-.portifolio li .titulo {
+.portifolio li h3 {
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -29,6 +29,20 @@ function atualizaLinguagens(dados) {
     const pessoal = document.getElementById('idiomas');
     pessoal.innerHTML = dados.idiomas.map(idioma => `<li>${idioma}</li>`).join('')
 }
+function atualizaPortifolio(dados) {
+    const ferramentas = document.getElementById('projetos');
+    ferramentas.innerHTML = dados.skills.hardSkills.map(projeto => {
+        return `  <li>
+    <h3 ${projeto.github ? 'class="git"' : ''}>${projeto.nome}</h3 >
+    <a href="${projeto.url}"
+        target="_blank">${projeto.url}</a>
+</li > `
+    }).join('')
+}
+
+
+
+
 (async () => {
     const dadosPerfil = await buscaDadosPerfil();
     atualizaperfil(dadosPerfil)
