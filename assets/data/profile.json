@@ -8,28 +8,28 @@
     "skills": {
         "hardSkills": [
             {
-                "name": "Nodejs",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+                "nome": "figma",
+                "logo": "https://raw.githubusercontent.com/Lucassilva1010/portifolio2024/main/assets/img/linguagens/figma.svg"
             },
             {
-                "name": "Java",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+                "nome": "html",
+                "logo": "https://raw.githubusercontent.com/Lucassilva1010/portifolio2024/main/assets/img/linguagens/html_icon_130541.svg"
             },
             {
-                "name": "Angular",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+                "nome": "css",
+                "logo": "https://raw.githubusercontent.com/Lucassilva1010/portifolio2024/main/assets/img/linguagens/css_icon_130661.svg"
             },
             {
-                "name": "React",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+                "nome": "bootStrap",
+                "logo": "https://raw.githubusercontent.com/Lucassilva1010/portifolio2024/main/assets/img/linguagens/bootstrap_icon_195906.svg"
             },
             {
-                "name": "Mongodb",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+                "nome": "javaScript",
+                "logo": "https://raw.githubusercontent.com/Lucassilva1010/portifolio2024/main/assets/img/linguagens/javascript_icon_130900.svg"
             },
             {
-                "name": "Postgresql",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+                "nome": "csharp",
+                "logo": "https://raw.githubusercontent.com/Lucassilva1010/portifolio2024/main/assets/img/linguagens/c_sharp.svg"
             }
         ],
         "softSkills": [

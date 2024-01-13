@@ -20,8 +20,13 @@ function atualizaSoftSkills(dados) {
     pessoal.innerHTML = dados.skills.softSkills.map(skills => `<li>${skills}</li>`).join('')
 }
 
+function atualizaHardSkills(dados) {
+    const ferramentas = document.getElementById('profile.skills.hardSkills');
+    ferramentas.innerHTML = dados.skills.hardSkills.map(skills => ` <img src="${skills.logo}" alt="${skills.nome}" title="${skills.nome}"></li>`).join('')
+}
 (async () => {
     const dadosPerfil = await buscaDadosPerfil();
     atualizaperfil(dadosPerfil)
     atualizaSoftSkills(dadosPerfil)
+    atualizaHardSkills(dadosPerfil)
 })()
