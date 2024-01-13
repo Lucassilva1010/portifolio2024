@@ -24,9 +24,15 @@ function atualizaHardSkills(dados) {
     const ferramentas = document.getElementById('profile.skills.hardSkills');
     ferramentas.innerHTML = dados.skills.hardSkills.map(skills => ` <img src="${skills.logo}" alt="${skills.nome}" title="${skills.nome}"></li>`).join('')
 }
+
+function atualizaLinguagens(dados) {
+    const pessoal = document.getElementById('idiomas');
+    pessoal.innerHTML = dados.idiomas.map(idioma => `<li>${idioma}</li>`).join('')
+}
 (async () => {
     const dadosPerfil = await buscaDadosPerfil();
     atualizaperfil(dadosPerfil)
     atualizaSoftSkills(dadosPerfil)
     atualizaHardSkills(dadosPerfil)
+    atualizaLinguagens(dadosPerfil)
 })()
