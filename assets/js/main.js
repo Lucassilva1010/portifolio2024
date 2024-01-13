@@ -15,9 +15,13 @@ function atualizaperfil(dadosPerfil) {
     const email = document.getElementById('perfil.email')
     email.innerText = dadosPerfil.email
 }
-
+function atualizaSoftSkills(dados) {
+    const pessoal = document.getElementById('profile.skills.softSkills');
+    pessoal.innerHTML = dados.skills.softSkills.map(skills => `<li>${skills}</li>`).join('')
+}
 
 (async () => {
     const dadosPerfil = await buscaDadosPerfil();
     atualizaperfil(dadosPerfil)
+    atualizaSoftSkills(dadosPerfil)
 })()
