@@ -31,7 +31,7 @@ function atualizaLinguagens(dados) {
 }
 function atualizaPortifolio(dados) {
     const ferramentas = document.getElementById('projetos');
-    ferramentas.innerHTML = dados.skills.hardSkills.map(projeto => {
+    ferramentas.innerHTML = dados.portfolio.map(projeto => {
         return `  <li>
     <h3 ${projeto.github ? 'class="git"' : ''}>${projeto.nome}</h3 >
     <a href="${projeto.url}"
@@ -40,6 +40,18 @@ function atualizaPortifolio(dados) {
     }).join('')
 }
 
+function atualizaExperiencias(dados) {
+    const descricao = document.getElementById('experiencias');
+    descricao.innerHTML = dados.experienciasProfisionais.map(projeto => {
+        return `
+        <li>
+            <h3 class="titulo">${projeto.titulo}</h3>
+            <p class="periodo">${projeto.periodo}</pan>
+            <p>${projeto.descricaoProjeto}
+            </p>
+        </li> `
+    }).join('')
+}
 
 
 
@@ -49,4 +61,6 @@ function atualizaPortifolio(dados) {
     atualizaSoftSkills(dadosPerfil)
     atualizaHardSkills(dadosPerfil)
     atualizaLinguagens(dadosPerfil)
+    atualizaPortifolio(dadosPerfil)
+    atualizaExperiencias(dadosPerfil)
 })()
